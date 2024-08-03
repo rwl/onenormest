@@ -1,0 +1,12 @@
+[package]
+name = "onenormest"
+version = "0.1.0"
+edition = "2021"
+description = "Sparse 1-norm and condition number estimator"
+license = "BSD-3-Clause"
+
+[dependencies]
+anyhow = "1"
+#ndarray = "0.15.2"
+faer = "0.19"
+rand = "0.8"
