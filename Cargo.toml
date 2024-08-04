@@ -7,6 +7,9 @@ license = "BSD-3-Clause"
 
 [dependencies]
 anyhow = "1"
-#ndarray = "0.15.2"
-faer = "0.19"
+full = { path = "../full" }
 rand = "0.8"
+
+sparsetools = { version = "0.2.2", optional = true }
+rlu = { version = "0.6", optional = true }
+faer = { version = "0.19", optional = true }
